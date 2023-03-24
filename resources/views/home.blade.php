@@ -10,7 +10,7 @@
         </div>
     </div>
 </header>
-<main class="container">
+<main class="container mx-auto">
     <x-heading-text>Adopt-A-Start: Our Furry Celebrities</x-heading-text>
 </main>
 
