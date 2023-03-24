@@ -9,10 +9,32 @@ module.exports = {
     ],
 
     theme: {
+        fontFamily: {
+            'sans' : ['Roboto', 'sans-serif']
+        },
         extend: {
+            backgroundColor: {
+                'primary': '#your-primary-color',
+                'secondary': '#75A8A5',
+                'orange': '#F77B6E',
+                'light': '#FDF7E9'
+              },
+              textColor: {
+                'primary': '#000',
+                'secondary': '#75A8A5',
+                'light': '#FDF7E9',
+                'orange': '#F77B6E',
+              },
+              borderColor: {
+                'primary': '#your-primary-color',
+                'secondary': '#your-secondary-color',
+              },
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                'amatic': ['"Amatic SC"', 'cursive']
             },
+            backgroundImage: {
+                'home-image': "url(../../public/images/hero-image.png)"
+            }
         },
     },
 
